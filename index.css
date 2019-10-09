@@ -1,0 +1,82 @@
+body
+{
+    background-color:teal;
+}
+#conatiner
+{
+    width:400px;
+    height: 300px;
+    border:2px solid darkgrey;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    box-sizing: border-box;
+}
+/*Name box style Start*/
+#user_name
+{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    margin-left: 10%;
+}
+#name
+{
+    color: antiquewhite;
+    font-family: Verdana;
+    font-size: 25px;
+    margin-left: 10%;
+}
+#user_name:hover
+{
+    margin: 0px;
+    width: 100%;
+    padding: 2px;
+    box-shadow: 2px 2px 2px 2px rgb(105, 105, 243);
+    
+}
+/*Name Box style End*/
+/*Email box style Start*/
+#user_email
+{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    margin-left: 10%;
+}
+#email
+{
+    color: antiquewhite;
+    font-family: Verdana;
+    font-size: 25px;
+    margin-left: 10%;
+}
+#user_email:hover
+{
+    margin: 0px;
+    width: 100%;
+    padding: 2px;
+    box-shadow: 2px 2px 2px 2px rgb(105, 105, 243); 
+}
+/*Email Box style End*/
+/*Login Button style start*/
+#login_button
+{
+    width: 30%;
+    height: 40px;
+    margin-left:35%;
+    border-radius: 10px;
+    background-color: green;
+    color: azure;
+    font-size: 25px; 
+}
+#login_button:hover
+{
+    margin-left: 0px;
+    position: absolute;
+    left:20%;
+    width:50%;
+}
+/*Login Button style End*/
